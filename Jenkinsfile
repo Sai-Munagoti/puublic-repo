@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'i am ready to join ok it happen ....'
+                echo 'i am ready to n ....'
             }
         }
         stage('Working with') {  // Changed the name to 'Working with'
