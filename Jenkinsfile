@@ -12,6 +12,7 @@ pipeline {
               //  sh  'mkdir working'
                 sh 'ls -la'
                 sh 'touch sai'
+                sh 'rm -rf sai'
             }
         }
     }
