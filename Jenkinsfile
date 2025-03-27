@@ -7,7 +7,7 @@ pipeline {
                 echo 'Hello World ....'
             }
         }
-         stage('Hello') {
+        stage('Working with') {  // Changed the name to 'Working with'
             steps {
                 echo 'working with '
             }
