@@ -11,6 +11,7 @@ pipeline {
             steps {
               //  sh  'mkdir working'
                 sh 'ls -la'
+                sh 'touch sai'
             }
         }
     }
