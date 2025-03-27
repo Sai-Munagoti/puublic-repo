@@ -13,6 +13,7 @@ pipeline {
                 sh 'ls -la'
                 sh 'touch sai'
                 sh 'rm -rf sai'
+                sh 'df -h'
             }
         }
     }
