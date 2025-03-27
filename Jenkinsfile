@@ -9,7 +9,7 @@ pipeline {
         }
          stage('Hello') {
             steps {
-                echo 'working with aja'
+                echo 'working with '
             }
         }
     }
