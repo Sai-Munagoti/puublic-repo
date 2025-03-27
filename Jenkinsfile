@@ -11,8 +11,8 @@ pipeline {
             steps {
               //  sh  'mkdir working'
                 sh 'ls -la'
-                sh 'touch sai12'
-                sh 'rm -rf sai12'
+                sh 'touch sai122'
+                sh 'rm -rf sai122'
             }
         }
     }
