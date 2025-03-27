@@ -10,6 +10,7 @@ pipeline {
         stage('Working with') {  // Changed the name to 'Working with'
             steps {
                 sh  'mkdir working'
+                sh 'ls -la'
             }
         }
     }
