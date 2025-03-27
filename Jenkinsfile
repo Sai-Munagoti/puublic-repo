@@ -4,12 +4,12 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'i am ready to join ....'
+                echo 'i am ready to join ok it happen ....'
             }
         }
         stage('Working with') {  // Changed the name to 'Working with'
             steps {
-                sh  'mkdir working'
+              //  sh  'mkdir working'
                 sh 'ls -la'
             }
         }
